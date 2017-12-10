@@ -1,0 +1,493 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beat Mix Lite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Tue Nov 17 2015 08:52:01 GMT+0700 (ICT)\n"
+"POT-Revision-Date: Tue Nov 17 2015 08:52:06 GMT+0700 (ICT)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../404.php:9 ../modules/breadcrumb.php:90
+msgid "404"
+msgstr ""
+
+#: ../404.php:12
+msgid "Page not found..."
+msgstr ""
+
+#: ../404.php:13
+msgid ""
+"We're sorry, but we can't find the page you were looking for. It's probably "
+"some thing we've done wrong but now we know about it we'll try to fix it. In "
+"the meantime, try one of this options:"
+msgstr ""
+
+#: ../404.php:15
+msgid "Go back to previous page"
+msgstr ""
+
+#: ../404.php:16
+msgid "Go to homepage"
+msgstr ""
+
+#: ../comments.php:8
+#, php-format
+msgid "%1$s Comments"
+msgstr ""
+
+#: ../comments.php:26
+msgid "<span>&laquo;</span> Previous"
+msgstr ""
+
+#: ../comments.php:27
+msgid "Next <span>&raquo;</span>"
+msgstr ""
+
+#: ../comments.php:33
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:62
+msgid "Name *"
+msgstr ""
+
+#: ../comments.php:68
+msgid "Email *"
+msgstr ""
+
+#: ../comments.php:74
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:87
+msgid "Your comment (*)"
+msgstr ""
+
+#: ../comments.php:96
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:97
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this "
+"account\">Log out?</a>"
+msgstr ""
+
+#: ../comments.php:102
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:103
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:104
+msgid "(cancel)"
+msgstr ""
+
+#: ../comments.php:105
+msgid "Post Comment"
+msgstr ""
+
+#: ../comments.php:194
+msgid "Reply"
+msgstr ""
+
+#: ../comments.php:204
+msgid "<span>&nbsp;/&nbsp;</span> Edit"
+msgstr ""
+
+#: ../functions.php:37
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:38
+msgid "Secondary Menu"
+msgstr ""
+
+#: ../functions.php:39
+msgid "Footer Menu"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not supported
+#. by Source Sans Pro, translate this to 'off'. Do not translate into your own language.
+#: ../functions.php:130
+msgctxt "Source Sans Pro"
+msgid "on"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not supported
+#. by Lato, translate this to 'off'. Do not translate into your own language.
+#: ../functions.php:138
+msgctxt "Lato"
+msgid "on"
+msgstr ""
+
+#. Translators: To add an additional character subset specific to your language,
+#. translate this to 'greek', 'cyrillic', 'devanagari' or 'vietnamese'. Do not translate into your own language.
+#: ../functions.php:146
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#: ../functions.php:171
+msgid "Header"
+msgstr ""
+
+#: ../functions.php:175
+msgid "Footer"
+msgstr ""
+
+#: ../functions.php:179
+msgid "Social links"
+msgstr ""
+
+#: ../functions.php:183
+msgid "Blog posts"
+msgstr ""
+
+#: ../functions.php:187
+msgid "Is show signup links (header)"
+msgstr ""
+
+#: ../functions.php:195
+msgid "Is show headlines"
+msgstr ""
+
+#: ../functions.php:203
+msgid "Logo"
+msgstr ""
+
+#: ../functions.php:204
+msgid "Upload your logo image."
+msgstr ""
+
+#: ../functions.php:212
+msgid "Header background"
+msgstr ""
+
+#: ../functions.php:213
+msgid "Upload your header background image."
+msgstr ""
+
+#: ../functions.php:221
+msgid "Copyright"
+msgstr ""
+
+#: ../functions.php:222
+msgid "Your copyright information on footer."
+msgstr ""
+
+#: ../functions.php:230
+msgid "Blog layout"
+msgstr ""
+
+#: ../functions.php:234
+msgid "One col"
+msgstr ""
+
+#: ../functions.php:235
+msgid "Masonry"
+msgstr ""
+
+#: ../functions.php:264
+msgid "Footer 1st"
+msgstr ""
+
+#: ../functions.php:267
+msgid "Footer 2nd"
+msgstr ""
+
+#: ../functions.php:270
+msgid "Footer 3rd"
+msgstr ""
+
+#: ../functions.php:282
+msgid "Facebook"
+msgstr ""
+
+#: ../functions.php:283
+msgid "Twitter"
+msgstr ""
+
+#: ../functions.php:284
+msgid "Pinterest"
+msgstr ""
+
+#: ../functions.php:285
+msgid "Google plus"
+msgstr ""
+
+#: ../functions.php:286
+msgid "Youtube"
+msgstr ""
+
+#: ../functions.php:287
+msgid "Vimeo"
+msgstr ""
+
+#: ../functions.php:288
+msgid "Flickr"
+msgstr ""
+
+#: ../functions.php:289
+msgid "Instagram"
+msgstr ""
+
+#: ../single.php:32
+msgid "By"
+msgstr ""
+
+#: ../lib/widget-master.php:25
+msgid "Title:"
+msgstr ""
+
+#: ../lib/widget-master.php:30
+msgid "Number of posts:"
+msgstr ""
+
+#: ../lib/widget-master.php:35
+msgid "Order by:"
+msgstr ""
+
+#: ../lib/widget-master.php:39
+msgid "Latest news"
+msgstr ""
+
+#: ../lib/widget-master.php:40
+msgid "Most comments"
+msgstr ""
+
+#: ../lib/widget-master.php:41
+msgid "Random"
+msgstr ""
+
+#: ../lib/widget-master.php:53
+msgid "Categories:"
+msgstr ""
+
+#: ../lib/widget-master.php:55 ../lib/widget-master.php:73
+msgid "All"
+msgstr ""
+
+#: ../lib/widget-master.php:71 ../modules/single/tag.php:3
+msgid "Tags:"
+msgstr ""
+
+#: ../lib/widget-master.php:89
+msgid "Format:"
+msgstr ""
+
+#: ../lib/widget-master.php:91 ../lib/widget-master.php:128
+msgid "-- All --"
+msgstr ""
+
+#: ../lib/widget-master.php:107
+msgid "Combine condition by <i>Tags</i>, <i>Categories</i>, <i>Format</i>"
+msgstr ""
+
+#: ../lib/widget-master.php:111
+msgid "And"
+msgstr ""
+
+#: ../lib/widget-master.php:112
+msgid "Or"
+msgstr ""
+
+#: ../lib/widget-master.php:124
+msgid "In:"
+msgstr ""
+
+#: ../lib/widget-master.php:124
+msgid "(require Wordpress 3.7+)"
+msgstr ""
+
+#: ../lib/widget-master.php:129
+msgid "1 week"
+msgstr ""
+
+#: ../lib/widget-master.php:130
+msgid "2 weeks"
+msgstr ""
+
+#: ../lib/widget-master.php:131
+msgid "3 weeks"
+msgstr ""
+
+#: ../lib/widget-master.php:132
+msgid "1 months"
+msgstr ""
+
+#: ../lib/widget-master.php:133
+msgid "2 months"
+msgstr ""
+
+#: ../lib/widget-master.php:134
+msgid "3 months"
+msgstr ""
+
+#: ../lib/widget-master.php:135
+msgid "4 months"
+msgstr ""
+
+#: ../lib/widget-master.php:136
+msgid "5 months"
+msgstr ""
+
+#: ../lib/widget-master.php:137
+msgid "6 months"
+msgstr ""
+
+#: ../lib/widget-master.php:138
+msgid "7 months"
+msgstr ""
+
+#: ../lib/widget-master.php:139
+msgid "8 months"
+msgstr ""
+
+#: ../lib/widget-master.php:140
+msgid "9 months"
+msgstr ""
+
+#: ../lib/widget-master.php:141
+msgid "10 months"
+msgstr ""
+
+#: ../lib/widget-master.php:142
+msgid "11 months"
+msgstr ""
+
+#: ../lib/widget-master.php:143
+msgid "1 year"
+msgstr ""
+
+#: ../lib/widget-master.php:144
+msgid "2 years"
+msgstr ""
+
+#: ../lib/widget-master.php:145
+msgid "3 years"
+msgstr ""
+
+#: ../lib/widget-master.php:146
+msgid "4 years"
+msgstr ""
+
+#: ../lib/widget-master.php:147
+msgid "5 years"
+msgstr ""
+
+#: ../modules/breadcrumb.php:7 ../modules/breadcrumb.php:93
+msgid "Home"
+msgstr ""
+
+#: ../modules/breadcrumb.php:55
+#, php-format
+msgid "Posts created by %1$s"
+msgstr ""
+
+#: ../modules/breadcrumb.php:61
+#, php-format
+msgid "Searched for \"%s\" return %s results"
+msgstr ""
+
+#: ../modules/breadcrumb.php:62 ../modules/search-top.php:6
+msgid "Search"
+msgstr ""
+
+#: ../modules/breadcrumb.php:89
+msgid "Page not found"
+msgstr ""
+
+#: ../modules/breadcrumb.php:92
+msgid "Latest News"
+msgstr ""
+
+#: ../modules/signup.php:3
+msgid "Sign in"
+msgstr ""
+
+#: ../modules/signup.php:4
+msgid "Register"
+msgstr ""
+
+#: ../modules/signup.php:6
+msgid "Log out"
+msgstr ""
+
+#: ../modules/blog/blog-one-col.php:29
+msgid "by"
+msgstr ""
+
+#: ../modules/blog/blog-one-col.php:46
+msgid "Continue reading"
+msgstr ""
+
+#: ../modules/blog/loadmore.php:17
+msgid "Load more"
+msgstr ""
+
+#: ../modules/single/author.php:24
+msgid "About"
+msgstr ""
+
+#: ../modules/single/category.php:3
+msgid "Category:"
+msgstr ""
+
+#: ../modules/single/posts-adjacent.php:11
+msgid "Previous"
+msgstr ""
+
+#: ../modules/single/posts-adjacent.php:19
+msgid "Next"
+msgstr ""
+
+#: ../modules/single/posts-related.php:33
+msgid "Related articles"
+msgstr ""
+
+#. Name of the theme
+msgid "Beat Mix Lite"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://kopatheme.com/freebies/beatmix-another-free-wordpress-blog-theme"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"BeatMix is a clean, trendy and fully responsive WordPress theme suited for "
+"concerts, events or any kind of music websites or blogs. This super flexible "
+"and easy-to-use theme coming along with many powerful options and features "
+"is guaranteed to give your site an amazing look beyond your expectations."
+msgstr ""
+
+#. Author of the theme
+msgid "Kopatheme"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://kopatheme.com/"
+msgstr ""

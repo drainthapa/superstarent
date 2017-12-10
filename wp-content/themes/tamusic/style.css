@@ -1,0 +1,314 @@
+/*
+Theme Name: TA Music
+Theme URI: http://themeart.co/free-theme/ta-music/
+Author: ThemeArt
+Author URI: http://themeart.co/
+Description: TA Music is the best free music band & musician WordPress theme with plentiful advanced features of building a music related website or online presence for the niche of entertainment industry. It is a noteworthy music theme which will help you get a head start on displaying events, DJ mixes, artists, albums, video galleries and photo galleries in an elegant touch, no matter what post type it is. The albums and galleries can be classified by their genres while you can create an artist single page to show the artist biography, discography and play his music works via a powerful audio player on all major browsers and mobile devices. We are meant to provide you in many case an outstanding and high quality event manager, by which your visitors and fans will easily get the latest information like the event overview, your tour dates or the date of event, event location or venue, maps, availability of the tickets and buy the tickets or your band merchandise online. This music band theme is dedicated to the music world and knows well about the needs of music bands, music lovers, musicians, DJs or organizers of festivals. With the 3 pre-defined color schemes (red, purple and yellow) and tons of customizable options, you will be able to create your personal unique website by few clicks as well as offer your visitors the best user experience.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ta-music
+Tags: one-column, two-columns, right-sidebar, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, full-width-template, rtl-language-support, sticky-post, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*---------------------------------------
+>>> TABLE OF CONTENTS:
+-----------------------------------------
+1.0 Less than 768px wide (Smartphones)
+2.0 Less than 970px wide (Tablets)
+3.0 Upto 990px wide (Mobile)
+4.0 More than 768px wide (Tablets+)
+5.0 Smaller than 1200px wide (Small desktops max)
+6.0 990px - 1200px (Small desktops only)
+7.0 Devices smaller than width of wrapper
+-----------------------------------------
+
+/*---------------------------------------
+1.0 Less than 768px wide (Smartphones)
+---------------------------------------*/
+
+@media (max-width: 767px) { 
+    body:before,
+    body:after { top: 130px }
+
+    #site-description { display: none }
+
+    #top-links li.login a,
+    #top-links li.register a { padding: 0 15px }
+
+    #top-links li.login a span,
+    #top-links li.register a span {
+        line-height: 0;
+        font-size: 0;
+    }
+
+    #top-links li.login a .fa,
+    #top-links li.register a .fa { margin: 0 }
+
+    .search-open .facebook,
+    .search-open .twitter,
+    .search-open .youtube,
+    .search-open .google-plus { display: none }
+
+    #main-nav ul.nav > li.open { height: auto }
+
+    #main-nav ul.nav li:before {
+        content: '';
+        padding: 0;
+    }
+
+    #main-nav ul.nav li a {
+        padding: 0 15px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0;
+        float: none;
+    }
+
+    .navbar-default .navbar-collapse {
+        border: none;
+        background: #2c2c2c;
+        box-shadow: 0px 0px 1px #202020;
+    }
+
+    .navbar > .container .navbar-brand {
+        line-height: 90px;
+        height: 90px;
+        margin-left: 15px;
+    }
+
+    .navbar > .container .navbar-brand img { height: 50% }
+
+    .navbar-default .navbar-toggle {
+        border-color: #707070;
+        background-color: transparent;
+        margin: 28px 15px 28px 0px;
+    }
+
+    .dropdown-menu li.divider { background: #707070 }
+
+    #main-nav .navbar-nav>.open>a,
+    #main-nav .navbar-nav>.open>a:hover,
+    #main-nav .navbar-nav>.open>a:focus {
+        background: #707070;
+        color: #373737;
+    }
+
+    #main-nav .navbar-nav>.dropdown>a .caret {
+        border-top-color: #474747;
+        border-bottom-color: #474747;
+    }
+
+    #main-nav .navbar-nav>.open>a .caret,
+    #main-nav .navbar-nav>.open>a:hover .caret,
+    #main-nav .navbar-nav>.open>a:focus .caret { color: #474747 }
+
+    #main-nav .navbar-nav > .dropdown li a { padding-left: 35px }
+
+    #breadcrumbs { padding: 30px 0 }
+
+    #banner .flexslider { height: 500px }
+
+    .slides li h1 {
+        font-size: 36px;
+        margin-bottom: 5%;
+    }
+
+    .slides li p { font-size: 18px }
+
+    footer .footer-col { background: none }
+
+    .copyright {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    footer ul.social {
+        float: none;
+        margin: 0 auto;
+        overflow: hidden;
+        display: table;
+    }
+
+    .view-all { width: 25px }
+
+    .view-all-icon { margin-left: 0 }
+
+    .view-all span {
+        line-height: 0;
+        font-size: 0;
+    }
+
+    h2 span.view { display: none }
+
+    .flex-direction-nav {
+        left: 20px;
+        bottom: 10px;
+    }
+
+    .event-gallery { max-height: 240px }
+
+    .event-info dl dt { float: left }
+
+    .event-info .action-buttons a {
+        height: 40px;
+        width: 130px;
+        line-height: 40px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .isotope-filters { display: table }
+
+    .isotope-filters li {
+        float: none;
+        text-align: center;
+    }
+
+    .isotope-filters li .fa { display: none }
+
+    .album-btns { padding: 20px 30px 0 45px }
+
+    .widget .tabs li a {
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    a.next,
+    a.prev { display: none }
+}
+
+/*------------------------------------
+2.0 Less than 970px wide (Tablets)
+------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    #site-description { width: 200px }
+
+    body:before,
+    body:after { top: 130px }
+
+    .search-open .facebook,
+    .search-open .twitter,
+    .search-open .youtube,
+    .search-open .google-plus { display: none }
+
+    .navbar-default .navbar-toggle {
+        border-color: #707070;
+        background-color: transparent;
+        margin: 28px 15px 28px 0px;
+    }
+
+    .navbar > .container .navbar-brand {
+        line-height: 90px;
+        height: 90px;
+    }
+
+    .navbar > .container .navbar-brand img { height: 50% }
+
+    #main-nav ul.nav li a {
+        font-size: 13px;
+        height: 30px;
+        line-height: 30px;
+        margin: 15px 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #main-nav ul.nav > li:before { padding: 33px 0 }
+
+    #banner .flexslider { height: 500px }
+
+    .slides li h1 { font-size: 48px }
+
+    footer .footer-col:nth-child(2n) { background: none }
+
+    .map-container .info { padding: 30px 20px }
+
+    .map-container .info p { font-size: 14px }
+
+    .event-gallery { height: auto }
+
+    .widget .tabs li a {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        padding: 0 10px;
+    }
+}
+
+/*------------------------------------
+3.0 Upto 990px wide (Mobile)
+------------------------------------*/
+
+@media (max-width: 991px) { 
+    ul.share {
+        left: 15px;
+        top: -13px;
+    }
+
+    ul.share li {
+        margin-right: 5px;
+        margin-bottom: 0;
+        float: left;
+    }
+
+    .songs li .track-btns { clear: both }
+}
+
+/*------------------------------------
+4.0 More than 768px wide (Tablets+)
+------------------------------------*/
+
+@media (min-width: 768px) { 
+    ul.nav li.dropdown:hover > ul.dropdown-menu {
+        /* Make dropdown work on hover */
+        display: block;
+    }
+}
+
+/*-------------------------------------------------
+5.0 Smaller than 1200px wide (Small desktops max)
+-------------------------------------------------*/
+
+@media (max-width: 1199px) { 
+    main h2 { font-size: 25px }
+}
+
+/*-------------------------------------------------
+6.0 990px - 1200px (Small desktops only)
+-------------------------------------------------*/
+
+@media (min-width: 991px) and (max-width: 1199px) { 
+    #gmap { height: 420px }
+
+    .map-container .info { padding: 40px 20px }
+
+    .map-container .info p { font-size: 18px }
+
+    .widget .tabs li a {
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+        padding: 0 15px;
+    }
+}
+
+/*------------------------------------------
+7.0 Devices smaller than width of wrapper
+------------------------------------------*/
+
+@media (max-width: 1370px) { 
+    #features,
+    #events,
+    #latest-content,
+    #tagline,
+    #content,
+    footer { width: 100% }
+}

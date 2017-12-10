@@ -1,0 +1,70 @@
+
+img { max-width: 100%; height:auto; }
+.container { width: 96% !important; margin: 0px auto !important; padding:0 2% !important;}
+#content .container {  width:100%; padding:0 !important;}
+
+#main_content { padding:0 10px; padding-bottom:20px; overflow:hidden; }
+.sidebar { display:none !important; }
+.slider-container {
+	margin-top:30px;
+}
+#scrollUp { top:auto; height:47px; right:0; width:100%; }
+#scrollUp img { bottom:0; }
+
+
+/*	-==========================- MENUS -==========================-  */
+#secondarymenu, #mainmenu-container {display:none;}
+.mobile-menu {background: none repeat scroll 0 0 #EDEDED;border: medium none;border-radius: 5px 5px 5px 5px;display: block;margin: 10px 0;padding: 5px;width: 100%;}
+
+/*	-==========================- SLIDER -==========================-  */
+.slider-container { display:block; }
+.fp-content-fon { position: absolute; padding-bottom:0px; top:0; height: auto; opacity: 0.5; filter: alpha(opacity = 50); bottom: 0px; right: 0px; left: 0px; background: #444; border:1px solid #aaa; }
+.fp-content { position: absolute; height:80px; padding: 5px 20px; bottom: 10px; right: 0; left: 0; overflow: hidden; }
+.fp-slides,.fp-thumbnail,.fp-slides-items  { height:auto; width:100%; }
+.fp-nav, .fp-prev-next-wrap {display:none;}
+
+/*	-==========================- ARTICLES -==========================-  */
+.articles { margin:0 -10px;}
+.feedback {width:100%}
+.articles .post-caption { padding:0 10px;}
+.articles .post-body { padding:0 10px;padding-bottom:20px;}
+
+
+/*  =----------------------------= SEARCH =----------------------------=  */
+.menusearch { display:block; float:none; width:100%; padding:10px 0; }
+.searchtxt { display:block; width:80%;}
+.searchbtn { width:15% !important;}
+.searchform { margin:10px 0; }
+#logo { text-align:center; }
+
+/*	-==========================- FOOTER -==========================-  */
+.widgetf { float:left; width:100%; }
+
+
+/*	-==========================- SHARE -==========================-  */
+#smthemes_share {
+	position: static;
+    width: 100%;
+}
+#smthemes_share .inner{
+	background:#fff;
+	overflow:hidden;
+	background-clip: padding-box;
+    background-color: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 0 15px rgba(0, 0, 0, 0.2);
+    font-family: Arial;
+    font-size: 10px;
+    padding: 5px;
+    position: static;
+    text-align: center;
+	display: block;
+	padding-top:20px;
+}
+#smthemes_share li {
+	float:left;
+	text-align:center;
+	margin-left:20px;
+	overflow:hidden;
+}

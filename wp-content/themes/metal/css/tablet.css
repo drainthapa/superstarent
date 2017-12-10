@@ -1,0 +1,43 @@
+/*	-==========================- GENERAL -==========================-  */
+.container { width: 100%; margin: 0px auto; padding:0 !important; }
+#content .container {  width:100%; padding:0 !important;}
+
+img { max-width:100%; }
+
+
+/* -==========================- SLIDER -==========================-  */
+.slider-container { display:block; clear:both; }
+
+.fp-nav, .fp-prev-next-wrap {display:none;}
+.fp-content-fon { position: absolute; padding-bottom:0px; height:100px; opacity: 0.5; filter: alpha(opacity = 50); bottom: 0px; right: 0px; left: 0px; background: #444; border:1px solid #aaa; }
+.fp-content { position: absolute; height:80px; padding: 5px 20px; bottom: 10px; right: 30px; left: 30px; overflow: hidden; }
+.fp-slides,.fp-thumbnail,.fp-slides-items  { height:auto; width:100%; }
+
+
+/*	-==========================- SIDEBARS -==========================-  */
+.sidebar.right { position:relative; float:right; margin-left:-1px; overflow:hidden; padding-bottom:20px; height:100%; width:272px; }
+.sidebar.left { position:relative; float:right; margin-left:-1px; overflow:hidden; padding-bottom:20px; height:100%; width:272px; }
+.sidebar ul.children { margin-left:7px; }
+.sidebar ul.children li { font-size:90%; }
+.sidebar ul.children li:before { content: '- '; color:#8e3949; }
+.sidebar .children { background:url(images/cat-children.png) right top no-repeat; overflow:hidden; margin-top:-13px; padding-top:20px; }
+
+
+/*	-==========================- MENUS -==========================-  */
+#secondarymenu, #mainmenu-container #mainmenu {display:none;}
+.mobile-menu {background: none repeat scroll 0 0 #EDEDED;border: medium none;border-radius: 5px 5px 5px 5px;display: block;margin: 10px 0;padding: 5px;width: 100%;}
+.menusearch{ height:25px; position: absolute; right: 15px; top: 30px; }
+.searchform { padding: 0; margin: 0; }
+#s { padding: 0 10px; margin: 0; }
+#logo h1, #logo img, #logo { height:85px; line-height:85px;padding:0;margin:0; }
+#secondarymenu-container { height: 85px ; }
+
+/*	-==========================- FOOTER -==========================-  */
+.footer-widgets { padding-left:3%; }
+.widgetf { float:left; width:33%; }
+#footer .footer_txt .container { width:auto !important }
+
+/*	-==========================- SHARE -==========================-  */
+#smthemes_share { position: static; width: 100%;}
+#smthemes_share .inner{ background:#fff; overflow:hidden; background-clip: padding-box; background-color: #FFFFFF; border: 1px solid #BBBBBB; border-radius: 5px 5px 5px 5px; box-shadow: 1px 0 15px rgba(0, 0, 0, 0.2); font-family: Arial; font-size: 10px; padding: 5px; position: static; text-align: center; display: block; padding-top:20px; }
+#smthemes_share li { float:left; text-align:center; margin-left:20px; overflow:hidden; }
